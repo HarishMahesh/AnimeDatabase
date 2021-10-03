@@ -1,0 +1,139 @@
+body{
+    background-color: #cad2c5;
+    padding: 5px;
+}
+
+.heading{
+    letter-spacing: 3px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading span{
+    color: red;
+}
+
+.Search-box{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-box>input{
+    height: 30px;
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #353535;
+    border-style: none;
+    box-shadow: -11px 14px 31px -11px rgb(152 141 141 / 48%);
+    -webkit-box-shadow: -11px 14px 31px -11px rgb(152 141 141 / 48%);
+    -moz-box-shadow: -11px 14px 31px -11px rgb(152 141 141 / 48%);
+    font-size: medium ;
+    text-align: center;
+    color: cornsilk;;
+}
+
+
+.total-container{
+    height: 230px;
+  
+}
+
+.total-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.anime-card{
+    height: 100%;
+    margin: 0px;
+    background-color: #353535;
+    color:cornsilk;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: -13px 10px 5px -3px rgb(156 148 148 / 65%);
+-webkit-box-shadow: -13px 10px 5px -3px rgb(156 148 148 / 65%);
+-moz-box-shadow: -13px 10px 5px -3px rgb(156 148 148 / 65%);
+overflow: auto;
+}
+
+.anime-card:hover{
+    transform: scale(1.03);
+}
+
+.anime-card > div {
+    height: 100%;
+    padding: 12px;
+}
+
+a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.anime-card p{
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: small;
+    color: #cad2c5;
+}
+
+.anime-card h4{
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.anime-card h4:hover{
+    color: teal;
+}
+
+.msg-box{
+    height: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#e41006;
+}
+
+.filter-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-box>button{
+    background-color: #353535;
+    border-style: none;
+    border:none;
+    border-radius: 10px;
+    color: #ddecdd;
+    padding: 5px;
+}
+
+.filter-box>button:hover{
+    transform: scale(1.1);
+}
+
+
+@media(min-width: 576px)
+{
+    .anime-card p{
+        font-size: medium;
+    }
+
+    .anime-card h4{
+        font-size: medium;
+    }
+}
+
